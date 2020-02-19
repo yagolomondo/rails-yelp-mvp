@@ -55,3 +55,14 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Add following exercise setup
+gem 'rspec-rails', group: [ :test ]
+# Add following exercise setup
+gem 'rails-controller-testing', group: [ :test ]
+
+
+gem 'autoprefixer-rails'
+# Use font awesome fonts
+gem 'font-awesome-sass', '~> 5.6.1'
+# Makes working with forms easy
+gem 'simple_form'
